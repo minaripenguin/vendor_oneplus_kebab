@@ -79,7 +79,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/kebab/proprietary/odm/etc/inparm/irissoft/mcfCheck.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/mcfCheck.txt \
     vendor/oneplus/kebab/proprietary/odm/etc/irissoft.fw:$(TARGET_COPY_OUT_ODM)/etc/irissoft.fw \
     vendor/oneplus/kebab/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
-    vendor/oneplus/kebab/proprietary/vendor/etc/libnfc-mtp-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf \
+    vendor/oneplus/kebab/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/oneplus/kebab/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/oneplus/kebab/proprietary/odm/etc/samsung1024_amb655x_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_amb655x_eyeprotect_data.xml \
     vendor/oneplus/kebab/proprietary/odm/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml \
