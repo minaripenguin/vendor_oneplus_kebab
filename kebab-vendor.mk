@@ -281,6 +281,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/kebab/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/oneplus/kebab/proprietary/system_ext/bin/tcmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/tcmd \
     vendor/oneplus/kebab/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
+    vendor/oneplus/kebab/proprietary/system_ext/etc/camera/engineer_camera_config:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camera/engineer_camera_config \
     vendor/oneplus/kebab/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/oneplus/kebab/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/oneplus/kebab/proprietary/system_ext/etc/init/tcmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/tcmd.rc \
@@ -906,6 +907,13 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/kebab/proprietary/vendor/lib/libcamera_nn_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_nn_skel.so \
     vendor/oneplus/kebab/proprietary/vendor/lib/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_nn_stub.so \
     vendor/oneplus/kebab/proprietary/vendor/lib/libcamerapostproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamerapostproc.so \
+    vendor/oneplus/kebab/proprietary/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \
+    vendor/oneplus/kebab/proprietary/vendor/lib/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl.so \
+    vendor/oneplus/kebab/proprietary/vendor/lib/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-impl.so \
+    vendor/oneplus/kebab/proprietary/vendor/lib/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-impl.so \
+    vendor/oneplus/kebab/proprietary/vendor/lib/camera.device@3.4-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-external-impl.so \
+    vendor/oneplus/kebab/proprietary/vendor/lib/camera.device@3.5-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-external-impl.so \
+    vendor/oneplus/kebab/proprietary/vendor/lib/camera.device@3.6-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.6-external-impl.so \
     vendor/oneplus/kebab/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
     vendor/oneplus/kebab/proprietary/vendor/lib/libcamxfacialfeatures.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfacialfeatures.so \
     vendor/oneplus/kebab/proprietary/vendor/lib/libcamxfdalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgo.so \
@@ -1145,6 +1153,13 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/kebab/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
     vendor/oneplus/kebab/proprietary/vendor/lib64/libcamerapostproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamerapostproc.so \
     vendor/oneplus/kebab/proprietary/vendor/lib64/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxexternalformatutils.so \
+    vendor/oneplus/kebab/proprietary/vendor/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so \
+    vendor/oneplus/kebab/proprietary/vendor/lib64/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl.so \
+    vendor/oneplus/kebab/proprietary/vendor/lib64/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-impl.so \
+    vendor/oneplus/kebab/proprietary/vendor/lib64/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-impl.so \
+    vendor/oneplus/kebab/proprietary/vendor/lib64/camera.device@3.4-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-external-impl.so \
+    vendor/oneplus/kebab/proprietary/vendor/lib64/camera.device@3.5-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-external-impl.so \
+    vendor/oneplus/kebab/proprietary/vendor/lib64/camera.device@3.6-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.6-external-impl.so \
     vendor/oneplus/kebab/proprietary/vendor/lib64/libcamxfacialfeatures.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfacialfeatures.so \
     vendor/oneplus/kebab/proprietary/vendor/lib64/libcamxfdalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgo.so \
     vendor/oneplus/kebab/proprietary/vendor/lib64/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdengine.so \
